@@ -1,35 +1,120 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T05:04:59.104Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="8MvE4aOwJOYw6F0kMGSm" version="21.0.10" type="github">
-  <diagram name="Página-1" id="586MupEyrvmrwecTrQfX">
+<mxfile host="app.diagrams.net" modified="2023-04-13T03:26:56.575Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="09RJ5L3h16J00CVJM3P5" version="21.1.5" type="github" pages="2">
+  <diagram name="Casos" id="586MupEyrvmrwecTrQfX">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rgzDulKJyRHSZidNwUCB-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rgzDulKJyRHSZidNwUCB-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="70" width="650" height="870" as="geometry" />
         </mxCell>
-        <mxCell id="rgzDulKJyRHSZidNwUCB-3" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="180" width="30" height="60" as="geometry" />
+        <mxCell id="rgzDulKJyRHSZidNwUCB-3" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="180" y="240" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rgzDulKJyRHSZidNwUCB-6" value="Jefe de Mecanicos" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="rgzDulKJyRHSZidNwUCB-6" value="Jefe de Mecanicos" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="410" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rgzDulKJyRHSZidNwUCB-7" value="Mecanico" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="rgzDulKJyRHSZidNwUCB-7" value="Mecanico" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="600" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rgzDulKJyRHSZidNwUCB-8" value="Asignar Mecánicos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="625" y="270" width="120" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="rgzDulKJyRHSZidNwUCB-9" value="Crear Orden de Trabajo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rgzDulKJyRHSZidNwUCB-9" value="Crear Orden de Trabajo" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="625" y="390" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="rgzDulKJyRHSZidNwUCB-11" value="Realizar Mantenimiento" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="625" y="510" width="120" height="70" as="geometry" />
+        <mxCell id="rgzDulKJyRHSZidNwUCB-11" value="Realizar Mantenimiento" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="625" y="520" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="rgzDulKJyRHSZidNwUCB-12" value="Recibir Vehiculo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="625" y="140" width="120" height="70" as="geometry" />
+        <mxCell id="rgzDulKJyRHSZidNwUCB-12" value="Solicitar Mantenimiento" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="625" y="260" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="rgzDulKJyRHSZidNwUCB-13" value="Entregar Vehiculo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="630" width="120" height="70" as="geometry" />
+        <mxCell id="rgzDulKJyRHSZidNwUCB-13" value="Entregar Vehiculo" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="625" y="650" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AFMKbB1Dm_9dv1B9jHw_-1" value="Sistema Taller Mecánico" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="575" y="120" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Jurtts-9ZjTTFzDJZDoi" name="Página-2">
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="86CwGYTfR40pzri5w0v3-1" value="Cliente" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#EBC85E;fillColor=#fff2cc;perimeterSpacing=0;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="110" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="86CwGYTfR40pzri5w0v3-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="980" as="sourcePoint" />
+            <mxPoint x="270" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="86CwGYTfR40pzri5w0v3-3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="125" y="90" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="86CwGYTfR40pzri5w0v3-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="86CwGYTfR40pzri5w0v3-3" parent="1" target="86CwGYTfR40pzri5w0v3-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="86CwGYTfR40pzri5w0v3-5" value="Detecta falla en su vehículo" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="71.86999999999999" y="160" width="136.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="86CwGYTfR40pzri5w0v3-6" value="Jefe de Mecánicos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#EBC85E;fillColor=#fff2cc;perimeterSpacing=0;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="86CwGYTfR40pzri5w0v3-8" value="Explica la falla" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="71.86999999999999" y="260" width="136.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="86CwGYTfR40pzri5w0v3-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="86CwGYTfR40pzri5w0v3-5" target="86CwGYTfR40pzri5w0v3-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="262" as="targetPoint" />
+            <mxPoint x="150" y="222" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="86CwGYTfR40pzri5w0v3-10" value="Determina el trabajo requerido" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="351.87" y="260" width="136.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="86CwGYTfR40pzri5w0v3-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="86CwGYTfR40pzri5w0v3-10" source="86CwGYTfR40pzri5w0v3-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430.01" y="262" as="targetPoint" />
+            <mxPoint x="420.01" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="86CwGYTfR40pzri5w0v3-13" value="Genera orden de trabajo" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="351.87" y="360" width="136.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="86CwGYTfR40pzri5w0v3-14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="86CwGYTfR40pzri5w0v3-13" source="86CwGYTfR40pzri5w0v3-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="362" as="targetPoint" />
+            <mxPoint x="420" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="86CwGYTfR40pzri5w0v3-15" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="980" as="sourcePoint" />
+            <mxPoint x="580" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="86CwGYTfR40pzri5w0v3-16" value="Mecánico" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#EBC85E;fillColor=#fff2cc;perimeterSpacing=0;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="695" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="86CwGYTfR40pzri5w0v3-17" value="Realiza Mantenimiento" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="663.88" y="460" width="136.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="86CwGYTfR40pzri5w0v3-18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="86CwGYTfR40pzri5w0v3-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="742.02" y="462" as="targetPoint" />
+            <mxPoint x="488.1299999999999" y="485" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="86CwGYTfR40pzri5w0v3-19" value="Asigna mecánicos" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="351.88" y="460" width="136.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="86CwGYTfR40pzri5w0v3-20" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="86CwGYTfR40pzri5w0v3-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430.01" y="462" as="targetPoint" />
+            <mxPoint x="420.01" y="410" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
